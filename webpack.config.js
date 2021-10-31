@@ -39,9 +39,9 @@ module.exports = {
           options: {
             limit: 10000,
             minitype: "application/font-woff",
-            name: "[name]."[ext],
+            name: "[name].[ext]",
             outputPath: "./assets/fonts/",
-            publicPath: "./assets/fonts",
+            publicPath: "./assets/fonts/",
             esModule: false,
           }
         }
